@@ -1,0 +1,80 @@
+body{
+    background-color: wheat;
+}
+.title{
+    margin: 4px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:black 6px solid;
+}
+.sup_title{
+    font-size: 35px;
+    padding: 20px;
+    top:80%;
+}
+.div_btu{
+    padding: 30px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -15%);
+}
+.div_btu button{
+    border-radius: 25px;
+    font-weight: bold;
+    width: 400px;
+    margin: 50px;
+    padding: 30px;
+    font-size: 75px;   
+    border: black 4px solid;
+}
+.bu_1:hover{
+    background-color: grey;
+}
+
+h1{
+    display: flex;
+    font-size: 55px;
+    align-items: center;
+    justify-content: center;
+}
+@media all and (max-width:1000px ) and (max-height:1000px)
+{
+    .title{
+        font-size: 22px;
+        width: 100%;
+        padding: 30px;
+        position: relative;
+        top: 50%;
+        left: 49%;
+        transform: translate(-45%,-0%);
+    }
+    .sup_title{
+        font-size: 16px;
+    }
+    h1{
+        font-size:36px;
+    }
+    .div_btu{
+        padding: 30px;
+        width: 500px;
+        position: absolute;
+        top: 40%;
+        left: 54%;
+        transform: translate(-50%, -15%);
+    }
+    .div_btu button{
+        border-radius: 25px;
+        font-weight: bold;
+        width: 360px;
+        margin: 50px;
+        padding: 30px;
+        font-size: 64px;   
+        border: black 4px solid;
+    }
+}
