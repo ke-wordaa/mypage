@@ -8,9 +8,11 @@
     <script>
         
         function pwd(){
-            var password= "1234";
+            var password= "1104";
+            var password2= "1104";
+            var a = document.getElementById("in")
             inpwd = document.getElementById("pws").value
-            if (inpwd == password){
+            if (inpwd == password||inpwd==password2){
                 alert("正確");
                 document.getElementById("m").innerHTML="正確!";
                 window.open("02.html")
@@ -20,8 +22,9 @@
                  document.getElementById("m").innerHTML="!不能為空!";
                 return false
                 }
-           else if (inpwd!=password) {
+           else if (inpwd!=password||inpwd!=password2) {
                 document.getElementById("m").innerHTML="!密碼錯誤!";
+                a.reset()
                 return false
             }
         }
@@ -38,7 +41,7 @@
 <center>
 <body>
     
-    <form>
+    <form id="in">  
         
         <br><br>
 
