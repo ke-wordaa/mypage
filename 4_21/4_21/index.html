@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
+    <title>
+        time
+    </title>
+</head>
+<body>
+    <div class="time">
+        <div class="ap">
+            <div id="apm">AM</div>
+        </div> 
+    <div class="cl">
+        <div id="h">00</div>
+    </div>     
+    <div class="cl">
+        <div id="s">00</div>
+    </div>
+    <div class="cl">
+        <div id="m">00</div>
+    </div>     
+</div>    
+</body>
+<script>
+    setInterval(()=>{
+
+        let h = document.getElementById("h")
+    let m = document.getElementById("s")
+    let s = document.getElementById("m")
+    let apm = document.getElementById("apm")
+
+    let h_time = new Date().getHours()
+    let m_time = new Date().getMinutes()
+    let s_time = new Date().getSeconds()
+    let am = h_time >= 12 ? "PM":"AM"
+
+    h_time = (h_time < 10) ? "0" + h_time : h_time
+    m_time = (m_time < 10) ? "0" + m_time : m_time
+    s_time = (s_time < 10) ? "0" + s_time : s_time
+    if(h_time >12){
+        h_time-=12
+    } 
+    h.innerHTML = h_time
+    m.innerHTML = m_time
+    s.innerHTML = s_time
+    apm.innerHTML = am 
+    })
+
+
+</script>
+</html>
