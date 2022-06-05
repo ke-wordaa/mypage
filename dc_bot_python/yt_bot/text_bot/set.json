@@ -1,4 +1,6 @@
 {
-    "token" : "ODk0MTA3Njg3NTY1MDMzNDgz.GwSZV4.90oskRv7hDeuplt4STpBgoSKp4i29RKXnOuvNU",
-    "chinnel1" : 980124868861366303
-}
+    "token" : "ODk0MTA3Njg3NTY1MDMzNDgz.GmXIJF.4KfKaUhM7ZxDLFfrJhyIZJmmo5H_Wz1pSXwcE4",
+    "chinnel1" : 980124868861366303,
+    "hi_photo" : "pic\\hi.png",
+    "pic" :  ["pic\\hi.png", "pic\\win.png"]
+}   
