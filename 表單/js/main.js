@@ -30,7 +30,7 @@ $("body").ready(function () {
                 if(password == "163")
                 {
                     alert(String(no[i])+'你好')
-                    window.open("表單/page/load.html","點餐系統",config = 'height=800,width=600')
+                    window.open("./page/load.html","點餐系統",config = 'height=800,width=600')
                 }
             }
         }
