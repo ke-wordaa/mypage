@@ -1,14 +1,14 @@
 $("body").ready(function () {
     $('.b1').click(function () { 
-        alert(1)
+       window.open('./pj_1.html')
     });
     $('.b2').click(function () { 
-        alert(2)
+        window.open('05/index.html')
     });
     $('.b3').click(function () { 
-        alert(3)
+        window.open('表單/index.html')
     });
     $('.b4').click(function () { 
-        alert(4)
+       window.open('4_21/4_21/index.html')
     });
 });
