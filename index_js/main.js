@@ -1,4 +1,7 @@
 $("body").ready(function () {
+    $('.b0').click(function () {
+        window.open('https://www.mykevinjj.us.kg/')
+    });
     $('.b1').click(function () { 
        window.open('./pj_1.html')
     });
