@@ -1,7 +1,7 @@
 $("body").ready(function () {
     $('.b0').click(function () {
-        window.open('https://www.mykevinjj.us.kg/')
-    });
+        window.open('https://www.mykevinjj.dpdns.org/')
+    });us
     $('.b1').click(function () { 
        window.open('./pj_1.html')
     });
