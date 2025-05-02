@@ -4,41 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index_js/jquery-3.6.0.js"></script>
+    <script src="index_js/jquery-3.6.0.js"></script>    
     <script src="index_js/main.js"></script>
-    <title>台灣各大考倒數器</title>
+    <title>台灣各大考倒數器SAaaaa</title>
 </head>
 <body>
-    <h1 style="text-align:center; font-size: 60px;width: 100%;">台灣各大考倒數器(e)</h1>
+    <h1>台灣各大考倒數器</h1>
     <div class="list" style="padding-top: 100px; text-align:center; font-size: 40px;width: 100%;">
         <button class="b0">2026統測</button>
-
+        <br>
         <button class="b1">2026會考</button>
         <br>
-        <button class="b2">2026學測</button>
-        <br>
-        
+        <button class="b2">2026學測</button>           
     </div>
     <style>
         body{
+            padding: 0;
             font-family: 標楷體;
             background:linear-gradient(120deg,#2980b9,#8144ad);
             height: 100vh;
             overflow: hidden;
         }
+        h1{
+            padding: 25px;
+            text-align: center;
+            font-size: 80px;
+            @media (max-width: 650px) {
+                font-size:40px;
+                
+            }
+        }
         button{
-            font-size: 40px;
+            padding: 25px;;
+            font-size: 60px;
+            @media (max-width: 650px) {
+                font-size:35px;
+                padding: auto;
+            }
+
             font-family: 標楷體;
             font-weight: bold;
             margin: 20px;
             background:rgb(120, 120, 191);
-            border-radius: 10px;
+            border-radius: 30px;
         }
         button:hover{
             background: blue;
-            font-size: 60px;
-            transition: .5s;
+            /* font-size: 60px;*/
+            transition: .6s;
         }
+
     </style>
 </body>
 </html>
